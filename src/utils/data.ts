@@ -1,53 +1,51 @@
-import img1 from "@/app/assets/backdropp.jpg"
-
 export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
-    thumbnail: {img1},
+    thumbnail: "/trello.jpg",
   },
   {
     title: "Cursor",
     link: "https://cursor.so",
-    thumbnail: "/kanban.jpg",
+    thumbnail: image2,
   },
   {
     title: "Rogue",
     link: "https://userogue.com",
-    thumbnail: "/gemini.jpg",
+    thumbnail: image3,
   },
 
   {
     title: "Editorially",
     link: "https://editorially.org",
-    thumbnail: "/rental.jpg",
+    thumbnail: image4,
   },
   {
     title: "Editrix AI",
     link: "https://editrix.ai",
     thumbnail:
-      "",
+      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
   },
   {
     title: "Pixel Perfect",
     link: "https://app.pixelperfect.quest",
-    thumbnail: "/trello2.jpg",
+    thumbnail: image6,
   },
 
   {
     title: "Algochurn",
     link: "https://algochurn.com",
-    thumbnail: "/trello2.jpg",
+    thumbnail:image7,
   },
   {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
-    thumbnail: "/dashboard.jpg",
+    thumbnail: image8,
   },
   {
     title: "Tailwind Master Kit",
     link: "https://tailwindmasterkit.com",
-    thumbnail: "/blogging.jpg",
+    thumbnail: image9,
   },
   {
     title: "SmartBridge",
@@ -66,7 +64,7 @@ export const products = [
     title: "Creme Digital",
     link: "https://cremedigital.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      back,
   },
   {
     title: "Golden Bells Academy",

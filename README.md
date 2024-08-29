@@ -1,11 +1,3 @@
-## 🚨 Tutorial
-
-This repository contains the corresponding tutorial available on our YouTube channel, <a href="https://www.youtube.com/@CodeScrapperOfficial/videos" target="_blank"><b>Code Scrapper</b></a>.
-
-## <a name="introduction">🤖 Introduction</a>
-
-Our Portfolio is a streamlined designed to enhance productivity and team collaboration. It offers intuitive add display your profile and projects to adapt to various workflows. Ideal for individuals and teams looking for an efficient way to show animated values.
-
 ## <a name="tech-stack">Tech Stack</a>
 
 - Next.js
@@ -28,7 +20,7 @@ Make sure you have the following installed on your machine:
 **Clone this Project**
 
 ```bash
-git clone https://github.com/CodeScrapper1/portfolio-nextjs-aceternity.git
+git clone https://github.com/abhi19772022/portfolio-nextjs-aceternity.git
 cd portfolio-nextjs-aceternity
 ```
 
