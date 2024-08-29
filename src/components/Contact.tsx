@@ -106,7 +106,7 @@ const Contact = () => {
                 >
                   <IconBrandOnlyfans className="h-4 w-4 text-[#0e514f]" />
                   <span className="text-[#0e514f] text-sm">
-                    OnlyFans
+                    Facebook
                   </span>
                   <BottomGradient />
                 </button>
