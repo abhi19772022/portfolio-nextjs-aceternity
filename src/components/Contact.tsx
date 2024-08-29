@@ -16,9 +16,9 @@ import { IconPhone, IconMail, IconHomeLink } from "@tabler/icons-react";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center">
       <TitleText title="Contact Us" />
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid my-20 ">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -112,60 +112,6 @@ const Contact = () => {
                 </button>
               </div>
             </form>
-          </motion.div>
-        </motion.div>
-
-        <motion.div
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
-          className="flex mx-auto"
-        >
-          <motion.div
-            variants={fadeIn("left", "tween", 0.2, 1)}
-            className="flex justify-center flex-col gap-10"
-          >
-            <ButtonsCard>
-              <IconPhone
-                stroke={2}
-                size={50}
-                className="text-white bg-[#0e514f] rounded-full p-2"
-              />
-              <div className="flex flex-col gap-2">
-                <label className="text-md">Phone</label>
-                <label className="text-xl lg:text-2xl text-black">
-                  +01 2345 564 4534
-                </label>
-              </div>
-            </ButtonsCard>
-
-            <ButtonsCard>
-              <IconMail
-                stroke={2}
-                size={50}
-                className="text-white bg-[#0e514f] rounded-full p-2"
-              />
-              <div className="flex flex-col gap-2">
-                <label className="text-md">Email</label>
-                <label className="text-xl lg:text-2xl text-black">
-                  codescrapper1@gmail.com
-                </label>
-              </div>
-            </ButtonsCard>
-            <ButtonsCard>
-              <IconHomeLink
-                stroke={2}
-                size={50}
-                className="text-white bg-[#0e514f] rounded-full p-2"
-              />
-              <div className="flex flex-col gap-2">
-                <label className="text-md">Address</label>
-                <label className="text-xl lg:text-2xl text-black">
-                  House 123, block 1, lahore
-                </label>
-              </div>
-            </ButtonsCard>
           </motion.div>
         </motion.div>
       </div>
