@@ -1,8 +1,18 @@
+import back from '@/app/assets/backdropp.jpg'
+import image1 from '@/app/assets/image1.jpg'
+import image2 from '@/app/assets/image2.jpg'
+import image3 from '@/app/assets/image3.jpg'
+import image4 from '@/app/assets/image4.jpg'
+import image5 from '@/app/assets/image5.jpg'
+import image6 from '@/app/assets/image6.jpg'
+import image7 from '@/app/assets/image7.jpg'
+import image8 from '@/app/assets/image8.jpg'
+import image9 from '@/app/assets/image9.jpg'
 export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
-    thumbnail: "/trello.jpg",
+    thumbnail: image1,
   },
   {
     title: "Cursor",
@@ -24,7 +34,7 @@ export const products = [
     title: "Editrix AI",
     link: "https://editrix.ai",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      image5,
   },
   {
     title: "Pixel Perfect",

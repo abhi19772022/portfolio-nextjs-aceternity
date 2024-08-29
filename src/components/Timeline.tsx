@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
+import img1 from "@/app/assets/image1.jpg";
 
 export function Timelinee() {
   const data = [
@@ -8,12 +9,13 @@ export function Timelinee() {
       title: "Day-1",
       content: (
         <div>
+          <h3 className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">Igniting the Journey</h3>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+          An Unforgettable Start with Inspiration, Industry Insights, Entrepreneurial Wisdom, and a Dash of Laughter
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/templates/startup-1.webp"
+              src={img1}
               alt="startup template"
               width={500}
               height={500}
