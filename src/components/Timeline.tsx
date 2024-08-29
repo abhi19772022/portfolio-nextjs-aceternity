@@ -5,7 +5,7 @@ import { Timeline } from "@/components/ui/timeline";
 export function Timelinee() {
   const data = [
     {
-      title: "2024",
+      title: "Day-1",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -45,7 +45,7 @@ export function Timelinee() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "Day-2",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -90,7 +90,7 @@ export function Timelinee() {
       ),
     },
     {
-      title: "Changelog",
+      title: "Day-3",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">

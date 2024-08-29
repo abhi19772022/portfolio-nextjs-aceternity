@@ -1,8 +1,10 @@
+import img1 from "@/app/assets/backdropp.jpg"
+
 export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
-    thumbnail: "/trello.jpg",
+    thumbnail: {img1},
   },
   {
     title: "Cursor",
@@ -24,7 +26,7 @@ export const products = [
     title: "Editrix AI",
     link: "https://editrix.ai",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      "",
   },
   {
     title: "Pixel Perfect",
