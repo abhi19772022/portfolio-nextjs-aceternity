@@ -20,7 +20,7 @@ Make sure you have the following installed on your machine:
 **Clone this Project**
 
 ```bash
-git clone https://github.com/CodeScrapper1/portfolio-nextjs-aceternity.git
+git clone https://github.com/abhi19772022/portfolio-nextjs-aceternity.git
 cd portfolio-nextjs-aceternity
 ```
 
