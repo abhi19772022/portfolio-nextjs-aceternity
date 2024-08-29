@@ -1,29 +1,29 @@
 "use client";
 import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
+import Image from "next/image";
+import ashneer from "@/app/assets/assneer.png";
  function Typer() {
   const words = [
     {
-      text: "Build  ",
+      text: "Our  ",
     },
     {
-      text: "awesome",
+      text: "Special",
     },
     {
-      text: "apps",
+      text: "Guest",
     },
+    
     {
-      text: "with",
-    },
-    {
-      text: "Aceternity.",
+      text: "Ashneer Grover",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem]  ">
+    <div className="flex  flex-row items-center justify-center h-[40rem]  ">
       
-      <TypewriterEffectSmooth words={words} />
-   
+      <div><TypewriterEffectSmooth words={words} /></div>
+   <div className="border rounded-[50%] h-96 w-96"><Image w-100 src={ashneer}/></div>
     </div>
   );
 }
