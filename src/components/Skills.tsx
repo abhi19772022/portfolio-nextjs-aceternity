@@ -8,7 +8,7 @@ import { skills } from "@/utils/data";
 const Skills = () => {
   return (
     <div>
-      <TitleText title="SKILLS" />
+      <TitleText title=" Our Sponsors" />
       <motion.p
         variants={textVarient}
         initial="hidden"

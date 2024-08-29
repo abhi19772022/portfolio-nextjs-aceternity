@@ -107,8 +107,9 @@ export interface Product {
   categoryId: number;
 }
 export const categories: Category[] = [
-  { id: 1, name: "Prisma" },
-  { id: 2, name: "Nextjs" },
+  
+  { id: 2, name: "Round 2" },
+  { id: 3, name: "Round 3" },
   // Add more categories here
 ];
 
@@ -118,43 +119,25 @@ export const work: Product[] = [
     name: "ecommerce",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     image: "/mobile-1.jpg",
-    categoryId: 1,
+    categoryId: 0,
   },
-  {
-    id: 4,
-    name: "trello clone",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    image: "/laptop-1.jpg",
-    categoryId: 2,
-  },
+ 
   {
     id: 6,
     name: "kanban clone",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    image: "/laptop-3.jpg",
+    image: "/mobile-1.jpg",
     categoryId: 2,
   },
-  {
-    id: 2,
-    name: "portfolio",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    image: "/mobile-2.jpg",
-    categoryId: 1,
-  },
+
   {
     id: 3,
     name: "dashboard",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     image: "/mobile-3.jpg",
-    categoryId: 1,
+    categoryId: 3,
   },
-  {
-    id: 5,
-    name: "gemini clone",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    image: "/laptop-2.jpg",
-    categoryId: 2,
-  },
+
 ];
 
 export const skills = [

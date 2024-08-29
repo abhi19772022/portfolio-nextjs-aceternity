@@ -14,10 +14,10 @@ const RecentWork = () => {
 
   const filteredWork = selectedCategoryId
     ? work.filter((product) => product.categoryId === selectedCategoryId)
-    : work;
+    :work.filter((product)=> product.categoryId === 0);
   return (
     <>
-      <TitleText title="My Recent Work" />
+      <TitleText title="Idea Jam Process" />
       <motion.div variants={textVarient} initial="hidden" whileInView="show">
         <p className="text-white text-center text-lg p-10 md:px-[25%]">
           We put your ideas and thus your wishes in the form of a unique web

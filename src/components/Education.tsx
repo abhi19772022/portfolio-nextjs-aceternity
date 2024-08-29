@@ -5,7 +5,7 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 const Education = () => {
   return (
     <div>
-      <TitleText title="My Education" />
+      <TitleText title="Panelists" />
       <StickyScroll content={content} />
     </div>
   );

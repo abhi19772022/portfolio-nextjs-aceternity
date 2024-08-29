@@ -24,17 +24,17 @@ const Categories = ({
       <button
         onClick={() => setSelectedCategoryId(0)}
         className={`${
-          selectedCategoryId == 0 && "bg-purple-500"
-        } bg-black border-purple-500 border-[1px] text-white font-bold py-2 px-4 rounded-lg`}
+          selectedCategoryId == 0 && "bg-emerald-500"
+        } bg-black border-emerald-500  text-white font-bold py-2 px-4 rounded-lg`}
       >
-        All
+        Round 1
       </button>
       {categories.map((cat) => (
         <button
           onClick={() => setSelectedCategoryId(cat.id)}
           className={`${
-            selectedCategoryId == cat.id && "bg-purple-500"
-          } bg-black border-purple-500 border-[1px] text-white font-bold py-2 px-4 rounded-lg`}
+            selectedCategoryId == cat.id && "bg-emerald-500"
+          } bg-black border-black border-[1px] text-white font-bold py-2 px-4 rounded-lg`}
         >
           {cat.name}
         </button>

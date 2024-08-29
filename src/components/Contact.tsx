@@ -17,7 +17,7 @@ import { IconPhone, IconMail, IconHomeLink } from "@tabler/icons-react";
 const Contact = () => {
   return (
     <div className="flex flex-col justify-center">
-      <TitleText title="Contact Us" />
+      {/* <TitleText title="Contact Us" /> */}
       <div className="grid my-20 ">
         <motion.div
           variants={staggerContainer}
