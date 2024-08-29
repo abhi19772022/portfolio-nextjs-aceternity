@@ -14,7 +14,7 @@ import { Timelinee } from "@/components/Timeline";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className="bg-slate-950">
       <FloatingNavbar />
       <Hero/>
       <HeroBanner />
@@ -22,7 +22,7 @@ export default function Home() {
         <Timelinee/>
         </div>
       <div className="max-w-7xl mx-auto px-10">
-        <About />
+        {/* <About /> */}
         <RecentWork />
         <Skills />
         <Experience />
