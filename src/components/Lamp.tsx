@@ -15,12 +15,12 @@ function Lamp() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className=" mt-32 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className=" mt-32 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center lg:text-4xl sm:text-9xl font-medium tracking-tight text-transparent md:text-10xl"
       >
-            <div className="h-[30rem]  h-screen  flex items-center justify-center bg-transparent">
+            <div className="h-screen  flex items-center justify-center bg-transparent">
             <TextHoverEffect text="ELEVATE" />
             
-            <text className="text-6xl font-bold text-white absolute mb-[-15%]">2024</text>
+            <text className="lg:text-6xl md:text-4xl sm:text-2xl font-bold text-white absolute mb-[-20%] ">2024</text>
     </div>
     
            

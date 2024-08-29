@@ -20,8 +20,9 @@ export default function Home() {
       <Hero/>
       <HeroBanner />
       <div>
+      <Typer/>
         <Timelinee/>
-        <Typer/>
+        
         </div>
       <div className="max-w-7xl mx-auto px-10">
         {/* <About /> */}
