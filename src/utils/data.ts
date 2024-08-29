@@ -1,51 +1,61 @@
+import back from '@/app/assets/backdropp.jpg'
+import image1 from '@/app/assets/image1.jpg'
+import image2 from '@/app/assets/image2.jpg'
+import image3 from '@/app/assets/image3.jpg'
+import image4 from '@/app/assets/image4.jpg'
+import image5 from '@/app/assets/image5.jpg'
+import image6 from '@/app/assets/image6.jpg'
+import image7 from '@/app/assets/image7.jpg'
+import image8 from '@/app/assets/image8.jpg'
+import image9 from '@/app/assets/image9.jpg'
 export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
-    thumbnail: "/trello.jpg",
+    thumbnail: image1,
   },
   {
     title: "Cursor",
     link: "https://cursor.so",
-    thumbnail: "/kanban.jpg",
+    thumbnail: image2,
   },
   {
     title: "Rogue",
     link: "https://userogue.com",
-    thumbnail: "/gemini.jpg",
+    thumbnail: image3,
   },
 
   {
     title: "Editorially",
     link: "https://editorially.org",
-    thumbnail: "/rental.jpg",
+    thumbnail: image4,
   },
   {
     title: "Editrix AI",
     link: "https://editrix.ai",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      image5,
   },
   {
     title: "Pixel Perfect",
     link: "https://app.pixelperfect.quest",
-    thumbnail: "/trello2.jpg",
+    thumbnail: image6,
   },
 
   {
     title: "Algochurn",
     link: "https://algochurn.com",
-    thumbnail: "/trello2.jpg",
+    thumbnail:image7,
   },
   {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
-    thumbnail: "/dashboard.jpg",
+    thumbnail: image8,
   },
   {
     title: "Tailwind Master Kit",
     link: "https://tailwindmasterkit.com",
-    thumbnail: "/blogging.jpg",
+    thumbnail: image9,
   },
   {
     title: "SmartBridge",
@@ -64,7 +74,7 @@ export const products = [
     title: "Creme Digital",
     link: "https://cremedigital.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      back,
   },
   {
     title: "Golden Bells Academy",

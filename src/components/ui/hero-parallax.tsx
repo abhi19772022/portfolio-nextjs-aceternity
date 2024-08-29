@@ -9,7 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-
+import back from '@/app/assets/backdropp.jpg'
 export const HeroParallax = ({
   products,
 }: {
