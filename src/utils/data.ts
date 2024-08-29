@@ -51,13 +51,13 @@ export const products = [
     title: "SmartBridge",
     link: "https://smartbridgetech.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+      image1,
   },
   {
     title: "Renderwork Studio",
     link: "https://renderwork.studio",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+      image2,
   },
 
   {
@@ -69,18 +69,18 @@ export const products = [
   {
     title: "Golden Bells Academy",
     link: "https://goldenbellsacademy.com",
-    thumbnail: "/rental.jpg",
+    thumbnail: image3,
   },
   {
     title: "Invoker Labs",
     link: "https://invoker.lol",
-    thumbnail: "/gemini.jpg",
+    thumbnail:image4,
   },
   {
     title: "E Free Invoice",
     link: "https://efreeinvoice.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+      image5,
   },
 ];
 
