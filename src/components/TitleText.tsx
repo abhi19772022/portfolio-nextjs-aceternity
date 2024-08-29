@@ -9,7 +9,8 @@ const TitleText = ({ title }: { title: string }) => {
       variants={textVarient}
       initial="hidden"
       whileInView="show"
-      className="mt-20 mb-5 text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-black via-[#0e514f] to-[#0e514f] font-bold md:text-[64px] text-center"
+      className="mt-20 mb-5 text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-emerald-500 via-emerald-500 to-emerald-500 font-bold md:text-[64px] text-center"
+
     >
       {title}
     </motion.h2>

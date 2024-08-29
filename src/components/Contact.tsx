@@ -30,8 +30,8 @@ const Contact = () => {
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="max-w-2xl w-full rounded-2xl m-5 p-4 md:p-8 bg-white border-[1px] border-[#0e514f] hover:shadow-md hover:shadow-[#0e514f]"
           >
-            <h2 className="font-bold text-3xl lg:text-5xl text-[#0e514f]">
-              Welcome to Code Scrapper
+            <h2 className="font-bold text-3xl lg:text-5xl text-emerald-500">
+              Welcome to Elevate 2024
             </h2>
             <p className="text-neutral-700 text-sm max-w-sm mt-2">
               Login to aceternity if you can because we don&apos;t have a login

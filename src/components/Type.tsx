@@ -16,15 +16,19 @@ import ashneer from "@/app/assets/assneer.png";
     
     {
       text: "Ashneer Grover",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-emerald-500 dark:text-emerald -500",
     },
   ];
   return (
-    <div className="flex  flex-row items-center justify-center h-[40rem]  ">
-      
-      <div><TypewriterEffectSmooth words={words} /></div>
-   <div className="border rounded-[50%] h-96 w-96"><Image w-100 src={ashneer}/></div>
+    <div className="flex flex-row items-center justify-center h-[40rem] gap-20">
+    <div>
+      <TypewriterEffectSmooth words={words} />
     </div>
+    <div className=" h-[450px] w-[450px] overflow-hidden">
+      <Image className="h-full w-full object-cover " src={ashneer} />
+    </div>
+  </div>
+  
   );
 }
 export default Typer;
