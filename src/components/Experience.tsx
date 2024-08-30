@@ -19,11 +19,11 @@ const Experience = () => {
             whileInView="show"
           >
             <BackgroundGradient className="rounded-[22px] p-4 bg-zinc-900">
-              <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-                {exp.startDate} - {exp.endDate}
+              <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-emerald-500">
+                {exp.title}
               </p>
-              <p className="text-sm text-neutral-600">{exp.title}</p>
-              <p className="text-gray-500 mt-2">{exp.description}</p>
+              <p className="text-sm text-neutral-400">{exp.day}</p>
+              <p className="text-white mt-2">{exp.description}</p>
             </BackgroundGradient>
           </motion.div>
         ))}
