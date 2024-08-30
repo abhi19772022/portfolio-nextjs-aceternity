@@ -8,6 +8,13 @@ import image6 from '@/app/assets/image6.jpg'
 import image7 from '@/app/assets/image7.jpg'
 import image8 from '@/app/assets/image8.jpg'
 import image9 from '@/app/assets/image9.jpg'
+import image10 from '@/app/assets/logo1.png'
+import image11 from '@/app/assets/logo2.png'
+import image12 from '@/app/assets/logo3.png'
+import image13 from '@/app/assets/logo4.png'
+import image14 from '@/app/assets/logo5.png'
+
+
 export const products = [
   {
     title: "Moonbeam",
@@ -118,7 +125,7 @@ export const work: Product[] = [
     id: 1,
     name: "ecommerce",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    image: "/mobile-1.jpg",
+    image: "https://utfs.io/f/80df1e68-a761-48df-83ff-223e44fb6ed6-1g.jpg",
     categoryId: 0,
   },
  
@@ -126,7 +133,7 @@ export const work: Product[] = [
     id: 6,
     name: "kanban clone",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    image: "/mobile-1.jpg",
+    image: "https://utfs.io/f/af1fce95-38d8-4539-a3ed-e835edff4fda-1h.jpg",
     categoryId: 2,
   },
 
@@ -134,7 +141,7 @@ export const work: Product[] = [
     id: 3,
     name: "dashboard",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    image: "/mobile-3.jpg",
+    image: "https://utfs.io/f/95ec86b7-98ba-422e-8145-27481c8b59f3-1i.jpg",
     categoryId: 3,
   },
 
@@ -142,35 +149,31 @@ export const work: Product[] = [
 
 export const skills = [
   {
-    name: "React js",
+    name: "Indian School Of Business",
     percentage: "95%",
-    image: "/react.svg",
+    image: image10,
   },
   {
-    name: "XD",
+    name: "Infosys",
     percentage: "90%",
-    image: "/xd.svg",
+    image: image11,
   },
   {
-    name: "Javascript",
+    name: "Lloyd Business School",
     percentage: "85%",
-    image: "/js.svg",
+    image: image12,
   },
   {
-    name: "Figma",
+    name: "SQE Labs",
     percentage: "97%",
-    image: "/figma.svg",
+    image: image13,
   },
   {
-    name: "Wordpress",
+    name: "TATA Consultancy Services",
     percentage: "75%",
-    image: "/wp.svg",
+    image: image14,
   },
-  {
-    name: "Sketch",
-    percentage: "70%",
-    image: "/sketch.svg",
-  },
+ 
 ];
 
 export const experience = [

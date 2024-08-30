@@ -12,6 +12,7 @@ import {Hero} from "@/components/Hero";
 import Image from "next/image";
 import { Timelinee } from "@/components/Timeline";
 import Typer from "@/components/Type";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -27,11 +28,12 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-10">
         {/* <About /> */}
         <RecentWork />
-        <Skills />
+        {/* <Skills /> */}
+        <Gallery />
         <Experience />
         <Education />
         <div className="relative">
-          <RecentBlogs />
+          {/* <RecentBlogs /> */}
         </div>
         <Contact />
         <Footer />
