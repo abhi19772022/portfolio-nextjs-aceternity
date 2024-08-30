@@ -12,7 +12,8 @@ import {Hero} from "@/components/Hero";
 import Image from "next/image";
 import { Timelinee } from "@/components/Timeline";
 import Typer from "@/components/Type";
-
+import { MagicMovingCard } from "@/components/MagicMovingCard";
+import TitleText from "../components/TitleText";
 export default function Home() {
   return (
     <div className="bg-slate-950">
@@ -34,6 +35,8 @@ export default function Home() {
           <RecentBlogs />
         </div>
         <Contact />
+        <TitleText title="Our Team" />
+        <MagicMovingCard />
         <Footer />
       </div>
     </div>
