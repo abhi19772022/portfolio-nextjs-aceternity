@@ -9,7 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import back from '@/app/assets/backdropp.jpg'
+import back from "@/app/assets/backdropp.jpg";
 export const HeroParallax = ({
   products,
 }: {
@@ -105,12 +105,13 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-8xl font-bold text-emerald-500">
-       Event Gallary
+        Event Gallary
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 text-white">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 text-white text-justify">
+        Explore the highlights of our past events, where innovation meets
+        celebration. From insightful panels with industry leaders to vibrant
+        cultural performances, our gallery reflects the spirit of creativity and
+        collaboration that drives us
       </p>
     </div>
   );

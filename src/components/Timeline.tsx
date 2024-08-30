@@ -15,9 +15,9 @@ export function Timelinee() {
       title: "Day-1",
       content: (
         <div>
-          <h1 className="text-emerald-500 text-[3rem] font-bold">Igniting the Journey</h1>
+          <h1 className="text-emerald-500 text-[35px] font-bold">Ignite Your Journey with Inspiration and Laughter</h1>
           <p className="text-neutral-800 dark:text-neutral-200 text-base font-normal mb-8">
-            An Unforgettable Start with Inspiration, Industry Insights, Entrepreneurial Wisdom, and a Dash of Laughter.
+          Welcome to SVGOI!Day 1 kicks off with an  inspiring opening ceremony, dive into entrepreneurship with Ashneer Grover, and end with a night of laughter at our stand-up comedy show.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -42,9 +42,9 @@ export function Timelinee() {
       title: "Day-2",
       content: (
         <div>
-          <h1 className="text-emerald-500 text-[3rem] font-bold">Continuing the Journey</h1>
+          <h1 className="text-emerald-500 text-[35px] font-bold">Innovate and Celebrate: Insight Meets Talent</h1>
           <p className="text-neutral-800 dark:text-neutral-200 text-base font-normal mb-8">
-            Delving Deeper into Innovation, Collaboration, and Growth Strategies.
+          Discover cutting-edge insights from Google Developers and startup leaders, then enjoy a lively Cultural Carnival showcasing fresh talent.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -69,9 +69,9 @@ export function Timelinee() {
       title: "Day-3",
       content: (
         <div>
-          <h1 className="text-emerald-500 text-[3rem] font-bold">Reaching New Heights</h1>
+          <h1 className="text-emerald-500 text-[35px] font-bold">Empower, Connect, and Rock the Finale</h1>
           <p className="text-neutral-800 dark:text-neutral-200 text-base font-normal mb-8">
-            Culminating in Achievements, Reflections, and Setting Future Aspirations.
+          Energize with a motivational session, connect with college leaders, and cap off with an electrifying Band Night for an unforgettable finale.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
