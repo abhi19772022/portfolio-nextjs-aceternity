@@ -14,6 +14,8 @@ import { Timelinee } from "@/components/Timeline";
 import Typer from "@/components/Type";
 import { MagicMovingCard } from "@/components/MagicMovingCard";
 import TitleText from "../components/TitleText";
+import Gallery from "@/components/Gallery";
+
 export default function Home() {
   return (
     <div className="bg-slate-950">
@@ -28,11 +30,12 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-10">
         {/* <About /> */}
         <RecentWork />
-        <Skills />
+        {/* <Skills /> */}
+        <Gallery />
         <Experience />
         <Education />
         <div className="relative">
-          <RecentBlogs />
+          {/* <RecentBlogs /> */}
         </div>
         <Contact />
         <TitleText title="Our Team" />
