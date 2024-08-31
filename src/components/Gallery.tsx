@@ -77,25 +77,26 @@ function Gallery() {
 export default Gallery;
 
 const AppContainer = styled.div`
-  width: 80vw;
+  width: 100%; /* Updated to take full width */
   height: 65vh;
   color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-//   margin-left:-100px;
-    // margin-bottom: 10%;
   @media (max-width: 768px) {
     height: 80vh;
   }
 `;
 
 const Wrapper = styled.div`
-  width: 80%;
+  width: 100%; /* Updated to take full width */
+  max-width: 1200px; /* Limit the maximum width */
+  margin: 0 auto; /* Center content */
   display: flex;
-  align-items: center;  /* Center vertically */
-  justify-content: center; /* Center horizontally */
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+  padding: 0 20px; /* Added padding to ensure spacing on smaller screens */
 `;
 
 const Text = styled.div`
@@ -121,7 +122,7 @@ const Marquee = styled.div`
   width: 100%;
   overflow: hidden;
   user-select: none;
-  align-items: center; /* Center items vertically */
+  align-items: center;
 
   mask-image: linear-gradient(
     to right,
@@ -155,7 +156,7 @@ const common = css`
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center items horizontally */
+  justify-content: center;
   white-space: nowrap;
   width: 100%;
   animation: ${scrollX} 30s linear infinite;

@@ -13,6 +13,7 @@ import Image from "next/image";
 import { Timelinee } from "@/components/Timeline";
 import Typer from "@/components/Type";
 import Gallery from "@/components/Gallery";
+import Counter from "@/components/Counter";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <HeroBanner />
       <div>
       <Typer/>
+      {/* <Counter/> */}
         <Timelinee/>
         
         </div>
