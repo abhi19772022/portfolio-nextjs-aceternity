@@ -15,6 +15,7 @@ import Typer from "@/components/Type";
 import { MagicMovingCard } from "@/components/MagicMovingCard";
 import TitleText from "../components/TitleText";
 import Gallery from "@/components/Gallery";
+import Counter from "@/components/Counter";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <HeroBanner />
       <div>
       <Typer/>
+      {/* <Counter/> */}
         <Timelinee/>
         
         </div>
