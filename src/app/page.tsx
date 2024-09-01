@@ -10,17 +10,37 @@ import RecentWork from "@/components/RecentWork";
 import Skills from "@/components/Skills";
 import {Hero} from "@/components/Hero";
 import Image from "next/image";
+import {FloatingDock} from "@/components/ui/FloatNavbar";
 import { Timelinee } from "@/components/Timeline";
 import Typer from "@/components/Type";
 import { MagicMovingCard } from "@/components/MagicMovingCard";
 import TitleText from "../components/TitleText";
 import Gallery from "@/components/Gallery";
 import Counter from "@/components/Counter";
+import HomeIcon from '@mui/icons-material/Home';
+import InfoIcon from '@mui/icons-material/Info';
+import BuildIcon from '@mui/icons-material/Build';
+import WorkIcon from '@mui/icons-material/Work';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
+import { MagicMovingCard } from "@/components/MagicMovingCard";
+import TitleText from "../components/TitleText";
+import Gallery from "@/components/Gallery";
+import Counter from "@/components/Counter";
 
+// npm i @emotion/react @mui/icons-material @emotion/styled
 export default function Home() {
+  const navbarItems = [
+    { title: "Home", icon: <HomeIcon />, href: "/" },
+    { title: "About", icon: <InfoIcon />, href: "/about" },
+    { title: "Services", icon: <BuildIcon />, href: "/services" },
+    { title: "Portfolio", icon: <WorkIcon />, href: "/portfolio" },
+    { title: "Contact", icon: <ContactMailIcon />, href: "/contact" },
+  ];
+  
   return (
     <div className="bg-slate-950">
-      <FloatingNavbar />
+      {/* <FloatingNavbar /> */}
+      <FloatingDock items={navbarItems}/> 
       <Hero/>
       <HeroBanner />
       <div>
