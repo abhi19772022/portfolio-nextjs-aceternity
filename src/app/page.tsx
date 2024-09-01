@@ -14,8 +14,8 @@ import RecentWork from "@/components/RecentWork";
 import Skills from "@/components/Skills";
 import { Hero } from "@/components/Hero";
 import Typer from "@/components/Type";
-import {Timelinee }from "@/components/Timeline";
 import Gallery from "@/components/Gallery";
+import Counter from "@/components/Counter";
 
 export default function Home() {
   return (
@@ -24,9 +24,10 @@ export default function Home() {
       <Hero />
       <HeroBanner />
       <div>
-        <Typer />
-        <Timelinee />
-      </div>
+      <Typer/>
+        <Timelinee/>
+        
+        </div>
       <div className="max-w-7xl mx-auto px-10">
         {/* <About /> */}
         <RecentWork />
@@ -37,7 +38,7 @@ export default function Home() {
         <div className="relative">
           {/* <RecentBlogs /> */}
         </div>
-        <Contact/>
+        <Contact />
         <Footer />
       </div>
     </div>
