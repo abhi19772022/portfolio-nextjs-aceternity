@@ -9,6 +9,7 @@ interface CatListProps {
   setSelectedCategoryId: (categoryId: number) => void;
   categories: Category[];
 }
+
 const Categories = ({
   selectedCategoryId,
   setSelectedCategoryId,
@@ -31,6 +32,7 @@ const Categories = ({
       </button>
       {categories.map((cat) => (
         <button
+          key={cat.id} // Add the key prop here
           onClick={() => setSelectedCategoryId(cat.id)}
           className={`${
             selectedCategoryId == cat.id && "bg-emerald-500"

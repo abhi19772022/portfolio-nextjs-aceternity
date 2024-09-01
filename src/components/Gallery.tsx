@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
 import { textVarient } from "@/utils/motion";
@@ -9,7 +8,7 @@ import TitleText from "./TitleText";
 function Gallery() {
   const row1: string[] = [
     "https://utfs.io/f/08e113ca-9cd3-4f3c-a891-75e0fdaea010-nlisdm.jpeg",
-    "https://utfs.io/f/cb253631-d4f2-4c3e-81e3-202fdb7387a5-cnlz8q.png",
+    "https://utfs.io/f/cb253631-d4f2-4f3e-81e3-202fdb7387a5-cnlz8q.png",
     "https://utfs.io/f/a97ac1eb-0e9f-4937-a79d-3c478cca09d2-nlisfc.png",
     "https://utfs.io/f/7e1b15d5-916a-4234-bf40-24276213ea46-wrdm82.logowik.com.webp",
     "https://utfs.io/f/6e71cab4-ef0d-4220-b681-2f8262fe9a8e-nm33wo.png",
@@ -41,14 +40,14 @@ function Gallery() {
           <MarqueeGroup>
             {row1.map((el, index) => (
               <ImageGroup key={index}>
-                <Image src={el} />
+                <Image src={el} alt={`Speaker company ${index + 1}`} />
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
             {row1.map((el, index) => (
               <ImageGroup key={index}>
-                <Image src={el} />
+                <Image src={el} alt={`Speaker company ${index + 1}`} />
               </ImageGroup>
             ))}
           </MarqueeGroup>
@@ -57,14 +56,14 @@ function Gallery() {
           <MarqueeGroup2>
             {row2.map((el, index) => (
               <ImageGroup key={index}>
-                <Image src={el} />
+                <Image src={el} alt={`Speaker company ${index + 1}`} />
               </ImageGroup>
             ))}
           </MarqueeGroup2>
           <MarqueeGroup2>
             {row2.map((el, index) => (
               <ImageGroup key={index}>
-                <Image src={el} />
+                <Image src={el} alt={`Speaker company ${index + 1}`} />
               </ImageGroup>
             ))}
           </MarqueeGroup2>
@@ -73,6 +72,7 @@ function Gallery() {
     </AppContainer>
   );
 }
+
 
 export default Gallery;
 

@@ -106,13 +106,17 @@ export interface Category {
   name: string;
 }
 
+// src/utils/data.ts
+
 export interface Product {
   id: number;
   name: string;
   desc: string;
   image: string;
   categoryId: number;
+  brochureUrl?: string; // Added brochureUrl as an optional property
 }
+
 export const categories: Category[] = [
   
   { id: 2, name: "Round 2" },
@@ -120,32 +124,36 @@ export const categories: Category[] = [
   // Add more categories here
 ];
 
+// src/utils/data.ts
+
 export const work: Product[] = [
   {
     id: 1,
     name: "ecommerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     image: "https://utfs.io/f/80df1e68-a761-48df-83ff-223e44fb6ed6-1g.jpg",
     categoryId: 0,
+    brochureUrl: "https://example.com/brochures/ecommerce.pdf", // Added brochureUrl
   },
- 
   {
     id: 6,
     name: "kanban clone",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     image: "https://utfs.io/f/af1fce95-38d8-4539-a3ed-e835edff4fda-1h.jpg",
     categoryId: 2,
+    // brochureUrl is optional; omit if not available
   },
-
   {
     id: 3,
     name: "dashboard",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     image: "https://utfs.io/f/95ec86b7-98ba-422e-8145-27481c8b59f3-1i.jpg",
     categoryId: 3,
+    brochureUrl: "https://example.com/brochures/dashboard.pdf", // Added brochureUrl
   },
-
+  // Add brochureUrl to other products as needed
 ];
+
 
 export const skills = [
   {

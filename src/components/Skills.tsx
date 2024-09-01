@@ -4,11 +4,12 @@ import TitleText from "./TitleText";
 import { textVarient } from "@/utils/motion";
 import { motion } from "framer-motion";
 import { skills } from "@/utils/data";
+import Image from "next/image"; // Ensure the import is from "next/image"
 
 const Skills = () => {
   return (
     <div>
-      <TitleText title=" Our Sponsors" />
+      <TitleText title="Our Sponsors" />
       <motion.p
         variants={textVarient}
         initial="hidden"
@@ -16,7 +17,7 @@ const Skills = () => {
         className="text-white text-center text-lg p-10 md:px-[25%]"
       >
         We put your ideas and thus your wishes in the form of a unique web
-        project that inspires you and you customers.
+        project that inspires you and your customers.
       </motion.p>
       <motion.div
         variants={textVarient}
@@ -30,14 +31,14 @@ const Skills = () => {
             className="flex flex-col justify-center items-center gap-5"
           >
             <div className="flex flex-col justify-center items-center bg-gray-300 border-[1px] border-purple-800 w-40 h-40 p-5 rounded-xl hover:bg-gray-100 transition duration-1000 ease-in-out">
-              <img
+              <Image
                 src={skill.image.src}
                 className="w-auto h-full object-contain"
-                alt=""
+                alt={skill.name}
+                width={160} 
+                height={160}
               />
-              {/* <h5 className="font-extrabold text-xl text-gray-500">
-                {skill.percentage}
-              </h5> */}
+            
             </div>
             <h2 className="text-white font-bold text-xl">{skill.name}</h2>
           </div>

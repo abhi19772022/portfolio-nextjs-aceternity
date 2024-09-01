@@ -5,4 +5,5 @@ import { products } from "@/utils/data";
 
 export function HeroBanner() {
   return <HeroParallax products={products} />;
+ 
 }

@@ -16,7 +16,7 @@ export const TypewriterEffect = ({
   className?: string;
   cursorClassName?: string;
 }) => {
-  // split text inside of words into array of characters
+  // Split text inside of words into an array of characters
   const wordsArray = words.map((word) => {
     return {
       ...word,
@@ -26,6 +26,7 @@ export const TypewriterEffect = ({
 
   const [scope, animate] = useAnimate();
   const isInView = useInView(scope);
+
   useEffect(() => {
     if (isInView) {
       animate(
@@ -42,7 +43,7 @@ export const TypewriterEffect = ({
         }
       );
     }
-  }, [isInView]);
+  }, [isInView, animate]); // Include 'animate' in the dependency array
 
   const renderWords = () => {
     return (
@@ -69,6 +70,7 @@ export const TypewriterEffect = ({
       </motion.div>
     );
   };
+
   return (
     <div
       className={cn(
@@ -110,13 +112,14 @@ export const TypewriterEffectSmooth = ({
   className?: string;
   cursorClassName?: string;
 }) => {
-  // split text inside of words into array of characters
+  // Split text inside of words into an array of characters
   const wordsArray = words.map((word) => {
     return {
       ...word,
       text: word.text.split(""),
     };
   });
+
   const renderWords = () => {
     return (
       <div>
@@ -156,7 +159,7 @@ export const TypewriterEffectSmooth = ({
         }}
       >
         <div
-          className=" sm:text-xl md:text-xl lg:text:3xl xl:text-5xl font-bold"
+          className="sm:text-xl md:text-xl lg:text:3xl xl:text-5xl font-bold"
           style={{
             whiteSpace: "nowrap",
           }}
@@ -173,12 +176,11 @@ export const TypewriterEffectSmooth = ({
         }}
         transition={{
           duration: 0.8,
-
           repeat: Infinity,
           repeatType: "reverse",
         }}
         className={cn(
-          "block rounded-sm w-[4px]  h-4 sm:h-6 xl:h-12 bg-emerald-500",
+          "block rounded-sm w-[4px] h-4 sm:h-6 xl:h-12 bg-emerald-500",
           cursorClassName
         )}
       ></motion.span>

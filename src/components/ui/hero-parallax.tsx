@@ -1,4 +1,6 @@
+// src/components/ui/hero-parallax.tsx
 "use client";
+
 import React from "react";
 import {
   motion,
@@ -9,14 +11,15 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import back from "@/app/assets/backdropp.jpg";
+import { StaticImageData } from "next/image";
+
 export const HeroParallax = ({
   products,
 }: {
   products: {
     title: string;
     link: string;
-    thumbnail: string;
+    thumbnail: StaticImageData; // Change this line
   }[];
 }) => {
   const firstRow = products.slice(0, 5);
@@ -57,7 +60,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[260vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[260vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -78,7 +81,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        <motion.div className="flex flex-row mb-20 space-x-20">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -103,9 +106,9 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
       <h1 className="text-2xl md:text-8xl font-bold text-emerald-500">
-        Event Gallary
+        Event Gallery
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 text-white text-justify">
         Explore the highlights of our past events, where innovation meets
@@ -124,7 +127,7 @@ export const ProductCard = ({
   product: {
     title: string;
     link: string;
-    thumbnail: string;
+    thumbnail: StaticImageData; // Change this line
   };
   translate: MotionValue<number>;
 }) => {

@@ -1,3 +1,7 @@
+// src/pages/Home.tsx
+"use client";
+
+import React from "react";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Education from "@/components/Education";
@@ -8,23 +12,21 @@ import FloatingNavbar from "@/components/Navbar";
 import RecentBlogs from "@/components/RecentBlogs";
 import RecentWork from "@/components/RecentWork";
 import Skills from "@/components/Skills";
-import {Hero} from "@/components/Hero";
-import Image from "next/image";
-import { Timelinee } from "@/components/Timeline";
+import { Hero } from "@/components/Hero";
 import Typer from "@/components/Type";
+import {Timelinee }from "@/components/Timeline";
 import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
     <div className="bg-slate-950">
       <FloatingNavbar />
-      <Hero/>
+      <Hero />
       <HeroBanner />
       <div>
-      <Typer/>
-        <Timelinee/>
-        
-        </div>
+        <Typer />
+        <Timelinee />
+      </div>
       <div className="max-w-7xl mx-auto px-10">
         {/* <About /> */}
         <RecentWork />
@@ -35,7 +37,7 @@ export default function Home() {
         <div className="relative">
           {/* <RecentBlogs /> */}
         </div>
-        <Contact />
+        <Contact/>
         <Footer />
       </div>
     </div>
