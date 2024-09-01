@@ -18,6 +18,10 @@ import InfoIcon from '@mui/icons-material/Info';
 import BuildIcon from '@mui/icons-material/Build';
 import WorkIcon from '@mui/icons-material/Work';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
+import { MagicMovingCard } from "@/components/MagicMovingCard";
+import TitleText from "../components/TitleText";
+import Gallery from "@/components/Gallery";
+import Counter from "@/components/Counter";
 
 // npm i @emotion/react @mui/icons-material @emotion/styled
 export default function Home() {
@@ -37,19 +41,23 @@ export default function Home() {
       <HeroBanner />
       <div>
       <Typer/>
+      {/* <Counter/> */}
         <Timelinee/>
         
         </div>
       <div className="max-w-7xl mx-auto px-10">
         {/* <About /> */}
         <RecentWork />
-        <Skills />
+        {/* <Skills /> */}
+        <Gallery />
         <Experience />
         <Education />
         <div className="relative">
-          <RecentBlogs />
+          {/* <RecentBlogs /> */}
         </div>
         <Contact />
+        <TitleText title="Our Team" />
+        <MagicMovingCard />
         <Footer />
       </div>
     </div>

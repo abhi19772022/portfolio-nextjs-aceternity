@@ -52,8 +52,8 @@ const Products = ({ filteredWork }: { filteredWork: Product[] }) => {
               <CardItem translateZ="100" className="w-full mt-4">
                 <Image
                   src={prod.image}
-                  height="1000"
-                  width="1000"
+                  height="800"
+                  width="800"
                   className="h-[80%] w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
