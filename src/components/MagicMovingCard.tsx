@@ -44,7 +44,7 @@ const reviews = [
   },
   {
     quote:"Web Lead",
-    name: "Neeraj kumar",
+    name: "Niraj kumar",
     github: "https://github.com/nirajn45",
     linkdin:"https://www.linkedin.com/in/niraj-gupta-04b3ba255/",
     insta:"",
@@ -173,8 +173,8 @@ export function MagicMovingCard() {
           <ReviewCard key={review.name} {...review} />
         ))}
       </Marquee>
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-emerald-500 dark:from-background"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-emerald-500 dark:from-background"></div>
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black dark:from-background"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-black dark:from-background"></div>
     </div>
   );
 }
