@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="bg-slate-950">
       {/* <FloatingNavbar /> */}
-      {/* <FloatingDock items={navbarItems}/>  */}
+      <FloatingDock items={navbarItems}/> 
       <Hero/>
       <HeroBanner />
       <div>
