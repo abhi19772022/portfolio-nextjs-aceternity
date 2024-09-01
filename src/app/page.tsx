@@ -1,4 +1,4 @@
-// src/pages/Home.tsx
+
 "use client";
 
 import React from "react";
@@ -16,6 +16,7 @@ import { Hero } from "@/components/Hero";
 import Typer from "@/components/Type";
 import Gallery from "@/components/Gallery";
 import Counter from "@/components/Counter";
+import Timelineee from "@/components/Timeline";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
       <HeroBanner />
       <div>
       <Typer/>
-        <Timelinee/>
+        <Timelineee/>
         
         </div>
       <div className="max-w-7xl mx-auto px-10">
@@ -39,6 +40,7 @@ export default function Home() {
           {/* <RecentBlogs /> */}
         </div>
         <Contact />
+        <Counter />
         <Footer />
       </div>
     </div>

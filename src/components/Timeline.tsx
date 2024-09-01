@@ -9,7 +9,7 @@ import day3 from "@/app/assets/timeline/day3.jpeg";
 import band from "@/app/assets/timeline/sviet logo without name.png"
 
 
-export function Timelinee() {
+export function Timelineee() {
   const data = [
     {
       title: "Day-1",
@@ -100,3 +100,4 @@ export function Timelinee() {
     </div>
   );
 }
+export default Timelineee;
