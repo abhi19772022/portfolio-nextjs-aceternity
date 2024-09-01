@@ -14,10 +14,17 @@ import RecentWork from "@/components/RecentWork";
 import Skills from "@/components/Skills";
 import {Hero} from "@/components/Hero";
 import Image from "next/image";
-import { Timelinee } from "@/components/Timeline";
+import { Timelineee } from "@/components/Timeline";
 import Typer from "@/components/Type";
 import Gallery from "@/components/Gallery";
 import Counter from "@/components/Counter";
+
+
+import HomeIcon from "@mui/icons-material/Home";
+import InfoIcon from "@mui/icons-material/Info";
+import BuildIcon from "@mui/icons-material/Build";
+import WorkIcon from "@mui/icons-material/Work";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
 
 // npm i @emotion/react @mui/icons-material @emotion/styled
 export default function Home() {
@@ -37,7 +44,7 @@ export default function Home() {
       <div>
       <Typer/>
       {/* <Counter/> */}
-        <Timelinee/>
+        <Timelineee/>
         
         </div>
       <div className="max-w-7xl mx-auto px-10">
