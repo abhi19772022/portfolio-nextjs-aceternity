@@ -8,9 +8,9 @@ import FloatingNavbar from "@/components/Navbar";
 import RecentBlogs from "@/components/RecentBlogs";
 import RecentWork from "@/components/RecentWork";
 import Skills from "@/components/Skills";
-import {Hero} from "@/components/Hero";
+import { Hero } from "@/components/Hero";
 import Image from "next/image";
-import {FloatingDock} from "@/components/ui/FloatNavbar";
+import { FloatingDock } from "@/components/ui/FloatNavbar";
 import { Timelinee } from "@/components/Timeline";
 import Typer from "@/components/Type";
 import { MagicMovingCard } from "@/components/MagicMovingCard";
@@ -22,10 +22,6 @@ import InfoIcon from '@mui/icons-material/Info';
 import BuildIcon from '@mui/icons-material/Build';
 import WorkIcon from '@mui/icons-material/Work';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
-import { MagicMovingCard } from "@/components/MagicMovingCard";
-import TitleText from "../components/TitleText";
-import Gallery from "@/components/Gallery";
-import Counter from "@/components/Counter";
 
 // npm i @emotion/react @mui/icons-material @emotion/styled
 export default function Home() {
@@ -39,24 +35,28 @@ export default function Home() {
   
   return (
     <div className="bg-slate-950">
+      {/* Uncomment if needed */}
       {/* <FloatingNavbar /> */}
       <FloatingDock items={navbarItems}/> 
       <Hero/>
       <HeroBanner />
       <div>
-      <Typer/>
-      {/* <Counter/> */}
+        <Typer/>
+        {/* Uncomment if needed */}
+        {/* <Counter/> */}
         <Timelinee/>
-        
-        </div>
+      </div>
       <div className="max-w-7xl mx-auto px-10">
+        {/* Uncomment if needed */}
         {/* <About /> */}
         <RecentWork />
+        {/* Uncomment if needed */}
         {/* <Skills /> */}
         <Gallery />
         <Experience />
         <Education />
         <div className="relative">
+          {/* Uncomment if needed */}
           {/* <RecentBlogs /> */}
         </div>
         <Contact />
